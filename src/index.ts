@@ -37,3 +37,19 @@ let coordinate: [number, number] = [1, 5]
 
 
 let ageName: [number, string] = [50, 'Mr. Sam']
+
+
+// object 
+const user: {
+    company: 'AI Academy'; // fixed object literal
+    firstName: string;
+    middleName?: string; // optional 
+    lastName: string;
+    readonly salary: 10000 // it can be only read can't be update or modify 
+} = {
+    company: "AI Academy",
+    firstName: 'Ashraful',
+    middleName: "Islam",
+    lastName: "Siam",
+    salary : 10000
+}
